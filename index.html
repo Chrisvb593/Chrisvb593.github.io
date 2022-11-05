@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Script incidence</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/estilos.css">
+</head>
+
+<body>
+  <div class="testbox">
+    <form action="/">
+      <div class="week">
+        <div class="question">
+          <div>
+            <label><span style="color: red; font-weight: bold;">SCRIPT SOCIO 👤</span></label>
+          </div>
+          <div class="question-answer">
+            <div>
+              <input type="radio" value="none" id="retoma" name="resp" />
+              <label for="retoma" class="radio"><span>Retoma ✅</span></label>
+
+              <input type="radio" value="none" id="retomaX" name="resp" />
+              <label for="retomaX" class="radio"><span>Retoma ❌</span></label>
+            </div>
+            <div>
+              <input type="radio" value="none" id="reapr" name="resp" />
+              <label for="reapr" class="radio"><span>Reapertura ✅</span></label>
+
+              <input type="radio" value="none" id="reaprX" name="resp" />
+              <label for="reaprX" class="radio"><span>Reapertura ❌</span></label>
+            </div>
+            <div>
+              <input type="radio" value="none" id="domicilio" name="resp" />
+              <label for="domicilio" class="radio"><span>Domicilio 🔁</span></label>
+            </div>
+            <div>
+              <input type="radio" value="none" id="telefono" name="resp" />
+              <label for="telefono" class="radio"><span>Teléfono 📴</span></label>
+            </div>
+            <div>
+              <input type="radio" value="none" id="docs" name="resp" />
+              <label for="docs" class="radio"><span>Documentos 💷</span></label>
+            </div>
+            <div>
+              <input type="radio" value="none" id="agenda" name="resp" />
+              <label for="agenda" class="radio"><span>Agendamiento 📅</span></label>
+            </div>
+            <div>
+              <input type="radio" value="none" id="reaprDos" name="resp" />
+              <label for="reaprDos" class="radio"><span>Reapr. 📴</span></label>
+            </div>
+            <div>
+              <input type="radio" value="none" id="reqX" name="resp" />
+              <label for="reqX" class="radio"><span>Requerimiento ❌</span></label>
+            </div>
+          </div>
+        </div>
+
+        <div class="question">
+          <div>
+            <label><span style="color: red; font-weight: bold;">SCRIPT LIDER 👥</span></label>
+          </div>
+          <div class="question-answer">
+            <div>
+              <input type="radio" value="none" id="retomaLD" name="resp" />
+              <label for="retomaLD" class="radio"><span>Retoma ✅</span></label>
+
+              <input type="radio" value="none" id="retomaXLD" name="resp" />
+              <label for="retomaXLD" class="radio"><span>Retoma ❌</span></label>
+            </div>
+            <div>
+              <input type="radio" value="none" id="reaprLD" name="resp" />
+              <label for="reaprLD" class="radio"><span>Reapertura ✅</span></label>
+
+              <input type="radio" value="none" id="reaprXLD" name="resp" />
+              <label for="reaprXLD" class="radio"><span>Reapertura ❌</span></label>
+            </div>
+            <div>
+              <input type="radio" value="none" id="domicilioLD" name="resp" />
+              <label for="domicilioLD" class="radio"><span>Domicilio 🔁</span></label>
+            </div>
+            <div>
+              <input type="radio" value="none" id="telefonoLD" name="resp" />
+              <label for="telefonoLD" class="radio"><span>Teléfono 📴</span></label>
+            </div>
+            <div>
+              <input type="radio" value="none" id="docsLD" name="resp" />
+              <label for="docsLD" class="radio"><span>Documentos 💷</span></label>
+            </div>
+            <div>
+              <input type="radio" value="none" id="agendaLD" name="resp" />
+              <label for="agendaLD" class="radio"><span>Agendamiento 📅</span></label>
+            </div>
+            <div>
+              <input type="radio" value="none" id="reaprDOSLD" name="resp" />
+              <label for="reaprDOSLD" class="radio"><span>Reapr. 📴</span></label>
+            </div>
+            <div>
+              <input type="radio" value="none" id="redLD" name="resp" />
+              <label for="redLD" class="radio"><span>Red Morosa 📈</span></label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <label for="respuestaFinal">Respuesta para incidencia</label>
+        <textarea id="respuestaFinal" rows="3"></textarea>
+      </div>
+      <div class="btn-block">
+        <input type="button" class="button" value="Respuesta" id="respuesta">
+      </div>
+    </form>
+  </div>
+
+  <script src="./js/respuestas.js"></script>
+</body>
+
+</html>
